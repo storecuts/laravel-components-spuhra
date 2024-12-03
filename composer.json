@@ -1,0 +1,28 @@
+{
+    "name": "storecuts/laravel-components-spuhra",
+    "description": "Components em Blade for use in applications Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jociel Thiago Svieck Fernandes",
+            "email": "jociel@agencia3s.com.br"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "StoreCuts\\LaravelComponentsSpuhra\\LaravelComponentsSpuhraServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "laravel/framework": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "StoreCuts\\LaravelComponentsSpuhra\\": "src/"
+        }
+    }
+}
